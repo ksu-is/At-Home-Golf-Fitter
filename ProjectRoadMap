@@ -2,15 +2,21 @@
 {x} Update the README file
 {x} Create this RoadMap file
 {x} Find related repository 
-{ } Begin looking into modifying KSUScraper for manufacturer websites
-{ } Start writing code for program
+{x} Create main code file
+{x} Begin looking into modifying KSUScraper 
+{x} Start writing code for program
+{x} Look at manufacturer websites for club stats and recommendations
+{x} Create some "foundational" code that the manufacturer/club information will eventually be put into
+{x} Test "foundational" code
+{ } Have a modified KSUScraper that works for multiple sets of clubs/manufacturers
 { } Incorporate modified KSUScraper code into program
 { } Test a simplified version of program 
-{ } After testing initial creation, begin expanding the breadth of club sets available
+{ } After testing initial version, begin expanding the breadth of club sets available
+{ } Begin working on presentation.
 { } Test the program to see if it is working with expanded club sets.
 { } Once this foundational program is working explore possibilites of utilizing a technology to analyze a video
 { } Determine if I can actually utilize the technology with my coding knowledge.
 { } If possible to utilize the visual technology begin working on it.
 { } Refine the program to potentially handle errors and fix bugs. 
 { } Finalize project repository to turn in
-{ } Begin working on presentation.
+{ } Finalize Presentation
