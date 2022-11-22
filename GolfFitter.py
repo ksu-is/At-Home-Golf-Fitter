@@ -14,16 +14,67 @@ def get_golfer_info():
         experience = (input("Please enter here:")).lower()
         
         if experience == "Beginner":
-            print("test")
-        
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
+
+
         elif experience == "Light Intermediate":
-            print("Test2")
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
         
         elif experience == "Experienced Intermediate":
-            print("Test3")
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
         
         elif experience == "Advanced":
-            print("Test4")
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
+    
+    
     
     elif budget > 500 and budget <= 1000:
         print("What category of experience do you fall into?")
@@ -32,17 +83,66 @@ def get_golfer_info():
         experience = input("Please enter here:").lower()
 
         if experience == "Beginner":
-            print("test")
-        
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
+
         elif experience == "Light Intermediate":
-            print("Test2")
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
         
         elif experience == "Experienced Intermediate":
-            print("Test3")
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
         
         elif experience == "Advanced":
-            print("Test4")
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
 
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
+
+    
     
     
     elif budget > 1000:
@@ -52,20 +152,68 @@ def get_golfer_info():
         experience = input("Please enter here:").lower()
 
         if experience == "Beginner":
-            print("test")
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
         
         elif experience == "Light Intermediate":
-            print("Test2")
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
         
         elif experience == "Experienced Intermediate":
-            print("Test3")
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
         
         elif experience == "Advanced":
-            print("Test4")
+            handicap = int(float(input("If you have a handicap, Please enter it (Enter an integer or decimal")))
+            
+            if handicap >= 30:
+                golfer_lvl = "New"
+            
+            elif handicap < 30 and handicap > 15:
+                golfer_lvl = "Light Intermediate"
+
+            elif handicap < 15 and handicap > 5:
+                golfer_lvl = "Experienced Intermediate"
+            
+            elif handicap < 5:
+                golfer_lvl = "Advanced"
 
         
 
 
-    return
+    return handicap
 
 get_golfer_info()
